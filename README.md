@@ -1,2 +1,2 @@
-gcloud init
-gcloud asset list --project grounded-region-396000 --format="csv(ancestors[0].split('/').slice(-1):sort=1:label=Project,name.split('/').slice(-3):label=Region:sort=2,assetType,name.split('/').slice(-1))" > gcp_inventory.csv
+```gcloud init
+gcloud asset list --project grounded-region-396000 --format="csv(ancestors[0].split('/').slice(-1):sort=1:label=Project,name.split('/').slice(-3):label=Region:sort=2,assetType,name.split('/').slice(-1))" > gcp_inventory.csv```
